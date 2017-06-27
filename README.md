@@ -6,6 +6,11 @@ independently with a different interface in mind.
 
 [redismq]: https://github.com/adjust/redismq
 
+## Fork Notes
+
+This fork uses `github.com/go-redis/redis` instead of `gopkg.in/redis.v3`.
+Other than this, API compatibility with the fork source has been retained.
+
 ## Basic Usage
 
 Lets take a look at how to use rmq.
